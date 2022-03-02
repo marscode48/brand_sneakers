@@ -30,6 +30,23 @@ li {
   list-style: none;
 }
 
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 40px;
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+}
+
 @media (max-width: 600px) {
   /******************************************************************
 

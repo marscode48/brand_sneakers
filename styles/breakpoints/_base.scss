@@ -26,3 +26,16 @@ img {
 li {
   list-style: none;
 }
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  position: fixed;
+  z-index: 10;
+  background-color: $cWhite;
+
+}
