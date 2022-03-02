@@ -5,8 +5,24 @@ Stylesheet: ベーススタイル
 ******************************************************************/
 @charset "UTF-8";
 
-
-
 /*
 共通クラス
 */
+html {
+  font-size: 100%;
+}
+body {
+  color: $cBlack;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+a {
+  color: $cBlack;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
