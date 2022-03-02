@@ -28,7 +28,7 @@ li {
 }
 .site-title {
   line-height: 1px;
-
+  
   & a {
     display: block;
   }
@@ -44,5 +44,49 @@ li {
   position: fixed;
   z-index: 10;
   background-color: $cWhite;
+
+  &__navi {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    width: 300px;
+    color: $cWhite;
+    padding: 60px 25px;
+    background-color: $cBlack;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
+    
+    & a {
+      color: $cWhite;
+    }
+
+    .open & {
+      left: 0;
+      opacity: 1;
+    }
+  }
+
+  &__menu {
+    margin-bottom: 60px;
+    border-top: solid 1px $cWhite;
+
+    & li {
+      position: relative;
+      margin: 0;
+      padding: 20px 0;
+      border-bottom: solid 1px $cWhite;
+    }
+  }
+
+  &__sns {
+    & li {
+      padding: 5px 0;
+    }
+  }
 
 }

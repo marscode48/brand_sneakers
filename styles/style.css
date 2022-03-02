@@ -55,6 +55,49 @@ li {
   background-color: #fff;
 }
 
+.header__navi {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  bottom: 0;
+  width: 300px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #121212;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+
+.header__navi a {
+  color: #fff;
+}
+
+.open .header__navi {
+  left: 0;
+  opacity: 1;
+}
+
+.header__menu {
+  margin-bottom: 60px;
+  border-top: solid 1px #fff;
+}
+
+.header__menu li {
+  position: relative;
+  margin: 0;
+  padding: 20px 0;
+  border-bottom: solid 1px #fff;
+}
+
+.header__sns li {
+  padding: 5px 0;
+}
+
 @media (max-width: 600px) {
   /******************************************************************
 
