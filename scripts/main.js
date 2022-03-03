@@ -12,5 +12,6 @@ class Main {
   }
 
   _init() {
+    new MenuOpen();
   }
 }
