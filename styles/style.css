@@ -38,6 +38,12 @@ li {
   display: block;
 }
 
+.sec-title {
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 /*-------------------------------------------
 ヘッダー
 -------------------------------------------*/
