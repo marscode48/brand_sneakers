@@ -13,5 +13,6 @@ class Main {
 
   _init() {
     new MenuOpen();
+    new SmoothScroll(80);
   }
 }
