@@ -40,4 +40,23 @@ $(function() {
     $("html, body").animate({scrollTop:position}, 600, "swing");
     return false;
   });
+
+  /*=================================================
+  PICK UP スライダー
+  ===================================================*/
+  $('.pickup__list').slick({
+    arrows: false,
+    centerMode: true,
+    centerPadding: '100px',
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerPadding: '50px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  })
 });
