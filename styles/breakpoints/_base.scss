@@ -38,6 +38,14 @@ li {
   margin-bottom: 30px;
   text-align: center;
 }
+/*
+jQueryでフェード表示させる要素に使用するためのクラス
+*/
+.fadein {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
 /*-------------------------------------------
 ヘッダー
 -------------------------------------------*/
