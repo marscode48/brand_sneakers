@@ -58,5 +58,25 @@ $(function() {
         }
       }
     ]
-  })
+  });
+  /*=================================================
+  スクロール時の画像フェード表示
+  ===================================================*/
+  $(window).scroll(function() {
+    $('.fadein').each(function() {
+      // スクロールした距離
+      let scroll = $(window).scrollTop();
+      // fadeinクラスの要素までの距離
+      let target = $(this).offset().top;
+      // 画面の高さ
+      let windowHeight = $(window).height();
+
+      // targetが画面下にきてから200px通過したら要素を表示
+      if (scroll > target - windowHeight + 200) {
+        $(this).css('opacity','1');
+        $(this).css('transform','translateY(0)');
+      }
+    });
+  });
 });
+
