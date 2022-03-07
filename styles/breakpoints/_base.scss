@@ -191,3 +191,47 @@ Pickup
     }
   }
 }
+
+/*-------------------------------------------
+Feature
+-------------------------------------------*/
+
+.feature {
+  max-width: 1240px;
+  padding: 100px 16px 50px 16px;
+  margin: -50px auto 10px auto;
+
+  &__grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  &__item {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px 4px $cShadow;
+  }
+
+  &__img {
+    vertical-align: top;
+  }
+
+  &__content {
+    padding: 30px;
+  }
+
+  &__category {
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &__date {
+    font-size: 0.75rem;
+    text-align: right;
+  }
+}

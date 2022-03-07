@@ -208,6 +208,53 @@ Pickup
   padding: 0 30px;
 }
 
+/*-------------------------------------------
+Feature
+-------------------------------------------*/
+.feature {
+  max-width: 1240px;
+  padding: 100px 16px 50px 16px;
+  margin: -50px auto 10px auto;
+}
+
+.feature__grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 26px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.feature__item {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 0 8px 4px #ccc;
+          box-shadow: 0 0 8px 4px #ccc;
+}
+
+.feature__img {
+  vertical-align: top;
+}
+
+.feature__content {
+  padding: 30px;
+}
+
+.feature__category {
+  font-size: 0.75rem;
+  margin-bottom: 20px;
+}
+
+.feature__text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.feature__date {
+  font-size: 0.75rem;
+  text-align: right;
+}
+
 @media (max-width: 600px) {
   /******************************************************************
 
