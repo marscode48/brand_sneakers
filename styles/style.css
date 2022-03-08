@@ -377,5 +377,23 @@ Contact
   .feature__content {
     padding: 16px;
   }
+  /*-------------------------------------------
+  Contact
+  -------------------------------------------*/
+  .contact {
+    padding: 80px 0;
+  }
+  .contact__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact__info, .contact__form {
+    width: 100%;
+  }
+  .contact__button input, .contact__button .contact__form textarea, .contact__form .contact__button textarea {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
