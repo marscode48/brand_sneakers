@@ -359,5 +359,14 @@ Contact
     -o-object-fit: cover;
        object-fit: cover;
   }
+  /*-------------------------------------------
+  Pickup
+  -------------------------------------------*/
+  .pickup {
+    padding: 80px 0;
+  }
+  .pickup__list li {
+    padding: 0 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
