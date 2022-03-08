@@ -266,6 +266,60 @@ Feature
   text-align: right;
 }
 
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+.contact {
+  color: #fff;
+  background-color: #121212;
+  padding: 50px 0;
+}
+
+.contact .sec-title {
+  color: #fff;
+}
+
+.contact__content {
+  max-width: 1240px;
+  padding: 0px 16px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__info, .contact__form {
+  width: 45%;
+}
+
+.contact__info p, .contact__form p {
+  margin-bottom: 30px;
+}
+
+.contact__form input, .contact__form textarea {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact__button input, .contact__button .contact__form textarea, .contact__form .contact__button textarea {
+  width: 200px;
+  color: #fff;
+  background-color: #121212;
+  border: solid 1px #fff;
+  padding: 12px 0px;
+  margin-bottom: 0;
+}
+
+.contact__button input:hover, .contact__button .contact__form textarea:hover, .contact__form .contact__button textarea:hover {
+  color: #121212;
+  background-color: #fff;
+}
+
 @media (max-width: 600px) {
   /******************************************************************
 

@@ -243,3 +243,64 @@ Feature
     text-align: right;
   }
 }
+
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+.contact {
+  color: $cWhite;
+  background-color: $cBlack;
+  padding: 50px 0;
+
+  & .sec-title {
+    color: $cWhite;
+  }
+
+  &__content {
+    max-width: 1240px;
+    padding: 0px 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    width: 45%;
+
+    & p {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__form {
+    @extend .contact__info;
+
+    & input {
+      width: 100%;
+      background-color: #fff;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    
+    & textarea {
+      @extend input;
+    }
+  }
+
+  &__button {
+    
+    & input {
+      width: 200px;
+      color: $cWhite;
+      background-color: $cBlack;
+      border: solid 1px $cWhite;
+      padding: 12px 0px;
+      margin-bottom: 0;
+
+      &:hover {
+        color: $cBlack;
+        background-color: $cWhite;
+      }
+    }
+  }
+}
