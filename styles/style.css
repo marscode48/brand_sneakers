@@ -368,5 +368,14 @@ Contact
   .pickup__list li {
     padding: 0 20px;
   }
+  /*-------------------------------------------
+  Feature
+  -------------------------------------------*/
+  .feature {
+    padding: 80px 16px;
+  }
+  .feature__content {
+    padding: 16px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
