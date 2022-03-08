@@ -320,6 +320,17 @@ Contact
   background-color: #fff;
 }
 
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+.footer {
+  color: #fff;
+  background-color: #121212;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.75rem;
+}
+
 @media (max-width: 600px) {
   /******************************************************************
 
