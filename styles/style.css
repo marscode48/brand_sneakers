@@ -306,7 +306,7 @@ Contact
   margin-bottom: 20px;
 }
 
-.contact__button input, .contact__button .contact__form textarea, .contact__form .contact__button textarea {
+.contact__btn input, .contact__btn .contact__form textarea, .contact__form .contact__btn textarea {
   width: 200px;
   color: #fff;
   background-color: #121212;
@@ -315,7 +315,7 @@ Contact
   margin-bottom: 0;
 }
 
-.contact__button input:hover, .contact__button .contact__form textarea:hover, .contact__form .contact__button textarea:hover {
+.contact__btn input:hover, .contact__btn .contact__form textarea:hover, .contact__form .contact__btn textarea:hover {
   color: #121212;
   background-color: #fff;
 }
@@ -392,7 +392,7 @@ Contact
   .contact__info, .contact__form {
     width: 100%;
   }
-  .contact__button input, .contact__button .contact__form textarea, .contact__form .contact__button textarea {
+  .contact__btn input, .contact__btn .contact__form textarea, .contact__form .contact__btn textarea {
     width: 100%;
   }
 }
