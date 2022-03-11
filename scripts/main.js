@@ -14,5 +14,6 @@ class Main {
   _init() {
     new MenuOpen();
     new SmoothScroll(80);
+    new HeroSlider('.swiper');
   }
 }
