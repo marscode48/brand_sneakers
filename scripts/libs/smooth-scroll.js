@@ -21,7 +21,7 @@ class SmoothScroll {
           top: target,
           behavior: "smooth"
         });
-      })
+      });
     }
   }
 }
