@@ -41,11 +41,12 @@ li {
 /*
 jQueryでフェード表示させる要素に使用するためのクラス
 */
-.fadein {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 1s;
-}
+// .fadein {
+//   opacity: 0;
+//   transform: translateY(20px);
+//   transition: all 1s;
+// }
+
 /*-------------------------------------------
 ヘッダー
 -------------------------------------------*/
@@ -222,6 +223,20 @@ Feature
 
   &__img {
     vertical-align: top;
+    /* 
+    jQueryでフェード表示させる時はコメントアウトする 
+    */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+
+    /*
+    scroll.jsでフェード表示させる要素に使用するためのクラス
+    */
+    &.inview {
+      opacity: 1;
+      transform: translateY(0px);
+    }
   }
 
   &__content {
